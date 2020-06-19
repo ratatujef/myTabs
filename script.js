@@ -14,7 +14,7 @@ function myTabs(tab, tabWrapper, tabContent) {
   }
   tabWrapper.addEventListener("click", function (e) {
     let target = e.target;
-    if (target && target.classList.contains(tab)) {
+    if (target && target.classList.contains('info-header-tab')) {//!!!!!!!!!!!передать класс заголовка табов из верстки!!!!!!!!!!!
       for (let i = 0; i < tab.length; i++) {
         if (target == tab[i]) {
           hideTab(0);
