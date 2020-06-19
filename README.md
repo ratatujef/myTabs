@@ -1,2 +1,0 @@
-# myTabs
-Native JS tabs
